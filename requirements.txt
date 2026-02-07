@@ -1,0 +1,30 @@
+# LiveAI Real-Time Market Risk Intelligence Platform
+# Production Dependencies - Pinned Versions
+
+# Core Streaming & State Management
+pathway>=0.8.0
+kafka-python>=2.0.2
+confluent-kafka>=2.3.0
+
+# Scientific Computing & Financial Math
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# Visualization & Dashboard
+streamlit>=1.29.0
+plotly>=5.18.0
+
+# GenAI Providers
+openai>=1.7.0
+google-generativeai>=0.3.0
+
+# HTTP & API
+requests>=2.31.0
+
+# Configuration & Environment
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# Utilities
+typing-extensions>=4.9.0
