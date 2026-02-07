@@ -154,7 +154,7 @@ def main():
     print("To complete the startup, run these commands in separate terminals:")
     print()
     print("Terminal 1 (Producer):")
-    print("  python -c \"from kafka.producer_manager import producer_manager; " +
+    print("  python -c \"from streaming.producer_manager import producer_manager; " +
           "producer_manager.initialize(); producer_manager.start_streaming(); " +
           "input('Press Enter to stop...')\"")
     print()

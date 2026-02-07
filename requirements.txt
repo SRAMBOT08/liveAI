@@ -2,29 +2,29 @@
 # Production Dependencies - Pinned Versions
 
 # Core Streaming & State Management
-pathway>=0.8.0
-kafka-python>=2.0.2
-confluent-kafka>=2.3.0
+pathway
+kafka-python
+confluent-kafka
 
 # Scientific Computing & Financial Math
-numpy>=1.24.0
-scipy>=1.11.0
-pandas>=2.0.0
+numpy
+scipy
+pandas
 
 # Visualization & Dashboard
-streamlit>=1.29.0
-plotly>=5.18.0
+streamlit
+plotly
 
 # GenAI Providers
-openai>=1.7.0
-google-generativeai>=0.3.0
+openai
+google-generativeai
 
 # HTTP & API
-requests>=2.31.0
+requests
 
 # Configuration & Environment
-python-dotenv>=1.0.0
-pydantic>=2.5.0
+python-dotenv
+pydantic
 
 # Utilities
-typing-extensions>=4.9.0
+typing-extensions

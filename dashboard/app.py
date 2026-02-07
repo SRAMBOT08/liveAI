@@ -9,6 +9,12 @@ import pandas as pd
 import time
 from datetime import datetime
 import json
+import sys
+from pathlib import Path
+
+# Add parent directory to path
+parent_dir = Path(__file__).parent.parent
+sys.path.insert(0, str(parent_dir))
 
 from config.settings import (
     config,
@@ -20,7 +26,7 @@ from config.settings import (
     update_genai_provider
 )
 from config.instruments import get_instrument_info
-from kafka.producer_manager import producer_manager
+from streaming.producer_manager import producer_manager
 from ai.explainer import risk_explainer
 
 

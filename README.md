@@ -118,7 +118,7 @@ bin/kafka-server-start.sh config/server.properties
 ```python
 # In one terminal
 python -c "
-from kafka.producer_manager import producer_manager
+from streaming.producer_manager import producer_manager
 producer_manager.initialize()
 producer_manager.start_streaming()
 input('Press Enter to stop...')

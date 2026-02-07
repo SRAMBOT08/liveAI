@@ -22,7 +22,7 @@ docker run -d --name kafka -p 9092:9092 apache/kafka:latest
 
 # 4. Run (3 separate terminals)
 # Terminal 1: Producer
-python -c "from kafka.producer_manager import producer_manager; producer_manager.initialize(); producer_manager.start_streaming(); input('Running...')"
+python -c "from streaming.producer_manager import producer_manager; producer_manager.initialize(); producer_manager.start_streaming(); input('Running...')"
 
 # Terminal 2: Pathway Engine  
 python app.py
